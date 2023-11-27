@@ -26,6 +26,9 @@ export class BotService implements OnModuleInit {
       'согласен',
       'поддерживаю',
       'вперед',
+      '👍🏿',
+      '👍🏻',
+      '👍🏾',
     ];
 
     bot.on('new_chat_members', (msg) =>
