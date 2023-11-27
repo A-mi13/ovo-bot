@@ -20,6 +20,8 @@ export class BotService implements OnModuleInit {
       'заработало',
       'сработало',
       '👍',
+      'отлично',
+      'сработало',
     ];
 
     bot.on('new_chat_members', (msg) =>
